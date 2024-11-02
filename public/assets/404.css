@@ -1,0 +1,57 @@
+:root {
+  --primary: #2563eb;
+  --background: #f8fafc;
+  --text: #1e293b;
+  --text-light: #64748b;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--background);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.error-container {
+  padding: 2rem;
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 4rem;
+  color: var(--primary);
+  margin: 0;
+  line-height: 1.2;
+}
+
+p {
+  font-size: 1.25rem;
+  color: var(--text-light);
+  margin: 1.5rem 0;
+}
+
+.home-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--primary);
+  color: white;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: transform 0.2s ease;
+}
+
+.home-button:hover {
+  transform: translateY(-2px);
+}
+
+.dog-emoji {
+  font-size: 5rem;
+  margin: 1rem 0;
+}
